@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', sans-serif;
+}
+.cabeçario{
+    background-color: #ffe4c4;
+    height: 280px;
+}
+.pesquisa{
+    background-color: #F1F1F1 ;
+    width: 1490px;
+    height: 135px;
+    padding: 15px;
+}
+.conteudo{
+    width: 1490px;
+    height: auto;
+    padding: 15px;
+}
+.fim{
+    text-align: center;
+    background-color: #F1F1F1;
+    width: 1490px;
+    height: 25px;
+    padding: 15px;
+}
+.img_cabeçario{
+    width: 1519px;
+    height: 280px;
+}
+
+.qual{
+    float: right;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    background-color: blueviolet;
+}
+.img_icon{
+    width: 35px;
+    height: 35px;
+    padding-left: 50px;
+}
+input {
+    border: 2px solid #919191;
+    padding-left: 10px;
+    border-radius: 6px;
+    width: 600px;
+    height: 30px;
+}
+.button{
+    width: 40px;
+    height: 40px;
+    background-color: #919191;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.button:hover {
+    background-color: #b6b6b6;
+ }
+.moti{
+    border-radius: 50%;
+}
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+  
+ .pokemon-card {
+    background-color: #F1F1F1;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+  
+ .pokemon-card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+ }
+ .search-bar {
+
+    background-color: #F1F1F1;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+ }
+  
+ .search-bar input[type="text"] {
+    border: 2px solid #919191;
+    padding-left: 10px;
+    border-radius: 6px;
+    width: 600px;
+    height: 30px;
+ }
+  
+ .search-bar button {
+    width: 40px;
+    height: 40px;
+    background-color: #919191;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+ }
+  
+ .search-bar button:hover {
+    background-color: #b6b6b6;
+ }
+ .container{
+
+ }
+ button {
+    cursor: pointer;
+ }
+ /* Estilo para ocultar o modal inicialmente */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
